@@ -1,6 +1,6 @@
 <template>
   <div>
-<h1><a href="https://github.com/Justineo/vue-echarts">Vue-ECharts</a></h1>
+<h1><a href="https://github.com/DevilLeven/vue2-echarts">Vue2-ECharts</a></h1>
 <chart :options="polar"  ref="polar"></chart>
 <chart :options="bar"  ref="bar" @chartclick="barclick"></chart>
 </div>
