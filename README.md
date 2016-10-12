@@ -31,7 +31,7 @@ $ bower install vue2-echarts
 
 ### webpack + vue-loader
 ```js
-import ECharts from 'vue-echarts/src/ECharts/ECharts.vue'
+import ECharts from 'vue2-echarts/src/ECharts/ECharts.vue'
 
 // register the component to use
 Vue.component('chart', ECharts)
@@ -50,10 +50,10 @@ export default {
 var Vue = require('path/to/vue')
 
 // requiring the UMD module
-var ECharts = require('path/to/vue-echarts/dist/vue-echarts')
+var ECharts = require('path/to/vue2-echarts/dist/vue-echarts')
 
 // or with vue-loader you can require the src directly
-var ECharts = require('path/to/vue-echarts/src/ECharts/ECharts.vue')
+var ECharts = require('path/to/vue2-echarts/src/ECharts/ECharts.vue')
 
 // register component to use
 Vue.component('chart', ECharts)
