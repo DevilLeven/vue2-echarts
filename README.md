@@ -18,20 +18,20 @@ Just download `dist/vue-echarts.js` and include it in your HTML file:
 ### npm 
 
 ```bash
-$ npm install vue-echarts
+$ npm install vue2-echarts
 ```
 
 ### bower
 
 ```bash
-$ bower install vue-echarts
+$ bower install vue2-echarts
 ```
 
 ## Registering the component
 
 ### webpack + vue-loader
 ```js
-import ECharts from 'vue-echarts/src/components/ECharts.vue'
+import ECharts from 'vue-echarts/src/ECharts/ECharts.vue'
 
 // register the component to use
 Vue.component('chart', ECharts)
@@ -53,7 +53,7 @@ var Vue = require('path/to/vue')
 var ECharts = require('path/to/vue-echarts/dist/vue-echarts')
 
 // or with vue-loader you can require the src directly
-var ECharts = require('path/to/vue-echarts/src/components/ECharts.vue')
+var ECharts = require('path/to/vue-echarts/src/ECharts/ECharts.vue')
 
 // register component to use
 Vue.component('chart', ECharts)
